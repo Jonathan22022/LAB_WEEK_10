@@ -58,7 +58,7 @@ class FirstFragment : Fragment() {
             updateText(it)
         })
     }
-    
+
     companion object {
         fun newInstance(param1: String, param2: String) =
             FirstFragment()
